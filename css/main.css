@@ -11,6 +11,10 @@
 {
     margin-bottom: 1%;
 }
+.padding
+{
+    padding: 1%;
+}
 
 .navbar-nav 
 {
@@ -58,4 +62,8 @@
 .whiteText
 {
     color: #ffffff;
+}
+.new-line
+{
+    word-wrap: break-word;
 }
