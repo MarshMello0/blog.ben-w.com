@@ -1,0 +1,123 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ben Wilson's Blog - UERP</title>
+
+    <link rel="icon" type="image/png" href="https://ben-w.com/img/meCropped.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="https://ben-w.com/img/meCropped.jpg">
+    <meta property="og:title" content="UERP" />
+    <meta property="og:url" content="http://blog.ben-w.com/posts/uerp" />
+    <meta property="og:site_name" content="Gameplay Programmer Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Finishing off my first tool for the Unity Editor" />
+
+    <!--Adds the top Menu bar to this page-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#TopOfPage").load("/header.html");
+            $("#BottomOfPage").load("/footer.html");
+        });
+    </script>
+</head>
+
+<body class="bg-secondary">
+    <!--Top of Page-->
+    <div id="TopOfPage">
+
+    </div>
+
+
+    <!--Main Page-->
+    <div class="container bg-light margin-top">
+        <div class="row">
+            <div class="col ">
+                <img class="img-fluid rounded mx-auto d-block" alt="Responsive Image" src="/img/uerp/uerp.PNG" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <b><u>
+                        <h1 class="text-center">UERP</h1>
+                    </u></b>
+                <p class="text-center">
+                    7th November 2018
+                </p>
+            </div>
+        </div>
+
+        <div class="row margin-top">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <p>
+                    Its nearly been a whole week since I posted about me creating my first Unity editor tool, in that
+                    week I managed to get it released!
+                </p>
+                <p>
+                    I first started work on getting some actual art for the rich presence as I had only just been using
+                    placeholders, I didn't want to waste so much time creating the art as this was just meant to be a
+                    fun little project so that I / others could show off what they are working on, on discord. The
+                    final result is just the Unity logo with "UERP" along the bottom, as it was going to be really
+                    small anyway it didn't need to have so much detail.
+                </p>
+            </div>
+        </div>
+        <!--Image Row-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <img src="/img/uerp/marshmello.jpg" class="img-fluid rounded mx-auto d-block postImage20" alt="Responsive Image">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                Now I had art, code and a name, all set for release! My first idea was to release it onto Unity's asset
+                store however when I started looking into the process of getting a publisher account I decided not to
+                bother. I ended up going with Github, I knew this would be it would be harder for people to install and
+                get less attraction, however, I didn't just make it to make something amazing which tons of people
+                could use, I just wanted a way to share what I am working on with people on discord.
+            </div>
+        </div>
+        <!--Image Row-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <img src="/img/uerp/uerp 1.0.png" class="img-fluid rounded mx-auto d-block" alt="Responsive Image">
+                The first release page on github
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>
+                    Shortly after releasing it I realized instead of having the scripts as .cs files with the unity
+                    package, I could just create a native unity plugin meaning people would just get the .dll file
+                    instead
+                    of two different scripts. So with a bit of copy and pasting, I moved it all over and compiled it
+                    into a
+                    .dll making it look better ( in my eyes :D ) and made another release, version 1.1!
+                </p>
+                <p>
+                    So that's what has gone on during this last week with UERP, it's also available for download on
+                    GitHub (if you couldn't guess after reading this blog post).
+                </p>
+                <a href="https://github.com/MarshMello0/UERP/releases" class="btn btn-outline-secondary btn-lg btn-block"
+                    role="button" target="_blank">UERP on Github</a>
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Bottom of Page-->
+    <div class="container margin-top" id="BottomOfPage">
+
+    </div>
+</body>
