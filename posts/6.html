@@ -1,0 +1,107 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ben Wilson's Blog - College Game Jam</title>
+
+    <link rel="icon" type="image/png" href="https://ben-w.com/img/meCropped.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="https://ben-w.com/img/meCropped.jpg">
+    <meta property="og:title" content="College Game Jam" />
+    <meta property="og:url" content="http://blog.ben-w.com/posts/6.html" />
+    <meta property="og:site_name" content="Gameplay Programmer Blog" />
+    <meta property="og:type" content="website" />
+
+    <!--Adds the top Menu bar to this page-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#TopOfPage").load("/header.html");
+            $("#BottomOfPage").load("/footer.html");
+        });
+    </script>
+</head>
+
+<body class="bg-secondary">
+    <!--Top of Page-->
+    <div id="TopOfPage">
+
+    </div>
+
+
+    <!--Main Page-->
+    <div class="container bg-light margin-top">
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid rounded mx-auto d-block" alt="Responsive Image" src="/img/6/Cover Art.png" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <b><u>
+                        <h1 class="text-center">College Game Jam</h1>
+                    </u></b>
+                <p class="text-center">
+                    13th June 2019
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>
+                    Took part in a game jam at college and in 24 hours managed to make a 2D platformer in Unity called
+                    "The Falling".
+                </p>
+                <p>
+                    The theme for this game jam was "5 Seconds to live", and we were left to create our own groups with
+                    the people who had turned up. I ended up partnering with an artist called <a
+                        href="https://joshuafox.pb.design/" target="_bank">Joshua Fox </a> and together we
+                    ended up creating "The Falling". For this game jam we kept it simple, neither of us had done one
+                    before so we just stuck to something simple so that we would actually complete the game and be happy
+                    with it.
+                </p>
+                <p>
+                    I was the programmer of the two, what I did was fixing the assets given to me in photoshop such as
+                    removing backgrounds and changing sizes or exporting layers, importing that into unity, creating the
+                    code for the game and creating the page on itch.io and gamejolt.
+                </p>
+                <p>
+                    Some issues I faced along the way while creating this game, was my first time using the particle
+                    system in Unity. I first just added the component instead of using the game object which you can
+                    spawn in, and also being confused in the sea of different options you could choose from. Exporting
+                    to Web GL for the first time, and having issues with the camera changing size depending on that the
+                    view size was on the browser. The way I went around this issue was by setting the fixed size of the
+                    game in the browser to 1600x900, then I knew at that size you would definitely be able to see the
+                    whole map when you play, however, it does mean people who have a smaller than that resolution for
+                    their monitor have to zoom out to see it all.
+                </p>
+                <p>
+                    Overall, I am happy with the final product and learnt new things about web GL and the particle
+                    system and put to use using git command line instead of a nice GUI.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <iframe src="https://widgets.gamejolt.com/package/v1?key=inBhtnQ6" frameborder="0" width="500"
+                    height="245"></iframe>
+            </div>
+
+            <div class="col">
+                <iframe src="https://itch.io/embed/436875" height="167" width="552" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--Bottom of Page-->
+    <div class="container margin-top" id="BottomOfPage">
+
+    </div>
+</body>
