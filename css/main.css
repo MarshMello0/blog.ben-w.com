@@ -12,6 +12,21 @@
     margin-bottom: 1%;
 }
 
+.navbar-nav 
+{
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.nav-item 
+{
+    display: inline-block;
+    float:none;
+}
+
+
 .border
 {
     border-radius: 25px;
@@ -38,4 +53,9 @@
 {
     height: 20%;
     
+}
+
+.whiteText
+{
+    color: #ffffff;
 }
